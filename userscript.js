@@ -2,7 +2,6 @@
 // @name         Sync-Tube.de Automation
 // @version      0.1
 // @author       obj
-// @run-at       document-idle
 // @match        *://*.youtube.com/*
 // @match        *://sync-tube.de/rooms/*
 // @grant        GM_getValue
