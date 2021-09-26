@@ -7,6 +7,7 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_addStyle
+// @grant        GM_setClipboard
 // ==/UserScript==
 
 (function() {
@@ -46,6 +47,7 @@
       }));
     });
     GM_setValue('link', '');
+    GM_setClipboard (document.location.href);
   }else{
       sleep(500).then(() => {
           addStyle();
